@@ -8,5 +8,5 @@ RUN apk add --no-cache build-base \
     && apk del build-base
 RUN apk add --no-cache tzdata
 
-EXPOSE 5000
+EXPOSE 8000
 CMD [ "python", "/api/startapi.py" ]
